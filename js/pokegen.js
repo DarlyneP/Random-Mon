@@ -54,8 +54,7 @@ async function generatorHandler() {
     const response = await getRandomPokemon.json();
     console.log(response);
     console.log(response.name);
-    instanceCheck()
-    //cardHandler();
+    instanceCheck();
 
     // managing template contents
     const pokemonSprite = document.querySelector('#poke-img')
@@ -85,15 +84,10 @@ async function generatorHandler() {
 
     const generators = main.querySelectorAll('.generator')
     console.log(generators);
-    /*generators.forEach(generator => {
-        generator.addEventListener('click', generatorHandler)
-    
-    });*/
-    generators[0].style.display = 'none'
-    generators[1].style.display = 'initial'
-    generators[1].addEventListener('click', generatorHandler)
 
-    //const cardGenerator = document.querySelector()
+    generators[0].style.display = 'none';
+    generators[1].style.display = 'initial';
+    generators[1].addEventListener('click', generatorHandler);
 }
 
 
