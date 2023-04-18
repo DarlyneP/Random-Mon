@@ -1,0 +1,107 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Dongle', sans-serif;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    max-width: 50px;
+    border-radius: 50%;
+    max-height: 50px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: ghostwhite;
+    margin: 15px;
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    height: fit-content;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+section img {
+    max-width: 450px;
+    max-height: 450px;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+#card--placeholder {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.oncard {
+    display: none;
+    
+}
+
+.generator {
+    background-color: rgb(248, 57, 57);
+    font-family: 'Dongle', sans-serif;
+    padding: 5px 25px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    color: ghostwhite;
+}
+
+.generator:hover {
+    cursor: pointer;
+}
+
+legend {
+    display: flex;
+    justify-content: center;
+}
+
+legend h2 {
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer img {
+    border-radius: 10px;
+    max-height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+}
