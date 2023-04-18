@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Mon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/pokeball.jpeg" alt="">
+        <h1>Random Mon</h1>
+        <img src="img/pokeball.jpeg" alt="">
+    </header>
+    <main>
+        <section>
+            <p>Generate a random Pokemon</p>
+            <button class="generator">Generate</button>
+        </section>
+
+        <section id="card--placeholder">
+
+        </section>
+        <p class="message"></p>
+        <button class="generator oncard">Generate another pokemon</button>
+
+        <template id="pokemon--card">
+            <legend>
+                <h2 id="poke-num"></h2>
+                <h2 id="poke-name"></h2>
+            </legend>
+            <img src="" alt="" id="poke-img">
+        </template>
+    </main>
+    <footer>
+        <a href="https://github.com/DarlyneP"><img src="img/github-logo-git-hub-icon-with-text-on-white-background-free-vector.webp" alt=""></a>
+    </footer>
+    <script src="js/pokegen.js"></script>
+</body>
+</html>
